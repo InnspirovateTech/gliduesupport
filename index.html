@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #666;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+        ul li a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form div {
+            margin-bottom: 15px;
+        }
+        label {
+            font-size: 1rem;
+            color: #555;
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Support</h1>
+        <p>If you have any questions, issues, or require assistance, feel free to reach out to us through the options below.</p>
+
+        <h2>Contact Information</h2>
+        <ul>
+            <li>Email: <a href="mailto:sulehrifiaz@gmail.com">sulehrifiaz@gmail.com</a></li>
+            <li>Phone: <a href="tel:+923021794031">+92 302 1794031</a></li>
+        </ul>
+
+        <h2>Submit a Support Request</h2>
+        <form action="https://your-backend-url.com/support" method="POST">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Describe your issue or question" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="footer">
+            Need immediate help? Call us at <a href="tel:+923021794031">+92 302 1794031</a>
+        </div>
+    </div>
+</body>
+</html>
